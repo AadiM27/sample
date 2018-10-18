@@ -31,5 +31,4 @@ function test2(){
 	else{
 		alert("Not a valid ")
 	}
-
 }
