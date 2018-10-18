@@ -5,8 +5,7 @@ function test1(){
 if(myColour == "red"){
 
 	console.log("ha, this guy likes red");
-
- }
+}
 
 else if(myColour == "green"){
 
