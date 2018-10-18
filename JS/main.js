@@ -1,12 +1,10 @@
 function test1(){
 	var fName = prompt("Hey what's your name?");
-	var myColour = prompt("Pick a colour," + fName);
+	var myColour = prompt("Pick a colour, " + fName);
 
 	if(myColour == "red"){
 		console.log("ha, this guy likes red");
 	}
-
-
 	else if(myColour == "green"){
 
 	    	console.log("ah, green. He's alright");
@@ -19,6 +17,7 @@ function test1(){
 
 
 function test2(){
+	var age = prompt("How old are you? And don't worry, I'm not a creep.")
 
 	if(age < 14){
 		alert("That's not too old");
@@ -33,3 +32,4 @@ function test2(){
 		alert("Not a valid ");
 	}
 }
+
