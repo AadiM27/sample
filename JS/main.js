@@ -4,16 +4,16 @@ function test1(){
     var myColour = prompt("Pick a colour, " + fName);
 
     if(myColour == "red"){
-        console.log("ha. this guy likes red");
+        alert("ha. this guy likes red");
     } 
     else if(myColour == "green"){
-        console.log("ah, green. He's alright.");
+        alert("ah, green. He's alright.");
     }
     else if(myColour == "yellow"){
-        console.log("het him something yellow.");
+        alert("het him something yellow.");
     }
     else {
-        console.log("that's not a color");
+        alert("that's not a color");
     }
 }
 
