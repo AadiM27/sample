@@ -4,7 +4,6 @@ function test1(){
     var myColour = prompt("Pick a colour, " + fName);
 
     if(myColour == "red"){
-
         console.log("ha. this guy likes red");
     } 
     else if(myColour == "green"){
@@ -19,7 +18,7 @@ function test1(){
 }
 
 function test2(){
-    var age = prompt("how old are you?");
+    var age=prompt("how old are you?");
 
 
     if(age < 14){
