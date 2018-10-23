@@ -1,14 +1,14 @@
 function test1(){
-	var fName = prompt("Hey what's your name?");
-	var myColour = prompt("Pick a colour, + fName");
+	var fName = prompt("Hey what's your name?")
+	var myColour = prompt("Pick a colour, + fName")
 
-	if(myColour == red){
+	if(myColour == "red"){
 		console.log("ha, this guy likes red");
 	}
-	else if(myColour == green){
+	else if(myColour == "green"){
         console.log("ah, green. He's alright");
 	}
-	else if(myColour == yellow){
+	else if(myColour == "yellow"){
 		console.log("ah, yellow. That's trash");
 	}
 }
@@ -27,7 +27,7 @@ function test2(){
 		alert("What??");
 	}
 	else{
-		alert("Not a valid ");
+		alert("Not a valid answer");
 	}
 }
 
