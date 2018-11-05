@@ -2,13 +2,13 @@ function test1(){
   for (var i=1; i<=100; i++) {
 
     if (i%15===0) {
-        alert("FizzBuzz");
+        console.log("FizzBuzz");
     } else if (i%3===0) {
-        alert("Fizz");
+        console.log("Fizz");
     } else if (i%5===0) {
-        alert("Buzz");
+        console.log("Buzz");
     } else {
-        alert(i)
+        console.log(i)
     }
   }
 }
@@ -22,7 +22,7 @@ function test2(){
   {
     chr=chr+("*");        
   }
-    alert(chr);
+    console.log(chr);
     chr='';    
   }
 }
