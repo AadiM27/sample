@@ -1,7 +1,8 @@
 function test1(){
-
+	//variables
     var fName = prompt("Hey what's your name?");
     var myColour = prompt("Pick a colour, " + fName);
+	//
 
     if(myColour == "red"){
         alert("ha. this guy likes red");
