@@ -21,7 +21,7 @@
 
 function test2(){
   var x,y,chr;
-  x,y,chr = prompt ("Insert an integer. Check the console for a results",)
+  x,y,chr = prompt ("Insert an integer. Check the console for results",)
    for(x=1; x <=6; x++)
   {
 
