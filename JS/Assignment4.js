@@ -37,19 +37,21 @@ function test2(){
 function test3(){
   var a = Math.floor(Math.random() * (999)) + 1;
 
-  while (true) {
+  while (true) 
+  {
+    var b = prompt("Enter a number in between 1 and 1000");
 
-  var b = prompt("Enter a number in between 1 and 1000");
-
-  if (b == a) {
+    if (b == a) 
+  {
     document.getElementById("You're right!");
-    break; // Stops loop
-  } else if (!b) {
-    document.getElementById("The Correct Answer was: " + a); //Shows correct answer
+    break; 
+  { 
+    else if (!b) 
+  }
+    document.getElementById("The Correct Answer was: " + a); 
     break;
   } else {
     document.getElementById("Incorrect! Try again!");
   }
-}
 }
 
