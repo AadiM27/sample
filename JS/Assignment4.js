@@ -34,10 +34,10 @@ function test2(){
   }
 }
 
-function test3()
-var a = Math.floor(Math.random() * (999)) + 1;
+function test3(){
+  var a = Math.floor(Math.random() * (999)) + 1;
 
-while (true) {
+  while (true) {
 
   var b = prompt("Enter a number in between 1 and 1000");
 
@@ -51,3 +51,5 @@ while (true) {
     document.getElementById("Incorrect! Try again!");
   }
 }
+}
+
