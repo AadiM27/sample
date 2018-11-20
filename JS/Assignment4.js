@@ -34,22 +34,20 @@ function test2(){
   }
 }
 
-function yourGuess()
-{
-var guess1 = document.getElementById("guess").value;
-var guess2 = 501;
-var newGuess = Math.floor(guess2);
-var n = 0;
-guess1, guess2, newGuess, n = prompt ("guess")
-if (newGuess < guess1) {
-    yourReturn = "Your are too low!!!"
-}
-else {
-    if (newGuess > guess1) {
-        yourReturn = "You are too high!!!"
-    }
-    else {
-        yourReturn = "Correct, You are the winner!!!"
-    }       
-}
+function test3()
+var a = Math.floor(Math.random() * (999)) + 1;
+
+while (true) {
+
+  var b = prompt("Enter a number in between 1 and 1000");
+
+  if (b == a) {
+    alert("You're right!");
+    break; // Stops loop
+  } else if (!b) {
+    alert("The Correct Answer was: " + a); //Shows correct answer
+    break;
+  } else {
+    alert("Incorrect! Try again!");
+  }
 }
