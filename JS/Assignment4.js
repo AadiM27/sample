@@ -39,10 +39,9 @@ function test3(){
   var multiply = random * 1000;
   var round = Math.round(multiply);
   var number = round;
-    for(var c = 0; c < 5; c ++)
+    for(var c = 0; c ++)
 
     var guess = window.prompt ("Guess what number i'm thinking off, 1 - 1000");
-    
     if(guess < number)
   {
     console.log("higher" + c);
