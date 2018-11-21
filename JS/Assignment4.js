@@ -42,16 +42,17 @@ function test3(){
     for(var c = 0; c < 5; c ++)
 
     var guess = window.prompt ("Guess what number i'm thinking off, 1 - 1000");
+    
     if(guess < number)
   {
-    console.log("higher + c");
+    console.log("higher" + c);
   }
     else if (guess > number)
   {
-    console.log("lower + c");
+    console.log("lower" + c);
   }
     else
   {
-    console.log("correct the number was + number");
+    console.log("correct the number was" + number);
   }
 }
