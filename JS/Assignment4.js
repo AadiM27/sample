@@ -34,24 +34,27 @@ function test2(){
   }
 }
 
-function test3(){
+function GTN(){
   var random = (Math.random());
   var multiply = random * 1000;
   var round = Math.round(multiply);
   var number = round;
-    for(var c = 0; c ++)
+  var allowedGuesses = 1000
 
-    var guess = window.prompt ("Guess what number i'm thinking off, 1 - 1000");
+    for(var c = 0; c < 5; c ++)
+      console.log(number)
+
+    var guess = window.prompt ("Guess what number i'm thinking of, 1 to 1000");
     if(guess < number)
   {
-    console.log("higher" + c);
+    window.prompt("higher");
   }
     else if (guess > number)
   {
-    console.log("lower" + c);
+    window.prompt("lower");
   }
-    else
+    else (guess == number)
   {
-    console.log("correct the number was" + number);
+    window.prompt("correct the number was" + number);
   }
 }
