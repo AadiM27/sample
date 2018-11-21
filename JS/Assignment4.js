@@ -1,6 +1,6 @@
  function test1(){
   var i;
-    i = window.prompt ("Insert an integer for Fizzbuzz", "0")
+    i = prompt ("Insert an integer for Fizzbuzz", "0")
 
     if (i%15===0) {
         document.getElementById("fizz").innerHTML = ("FizzBuzz");
@@ -34,4 +34,24 @@ function test2(){
   }
 }
 
+function test3(){
+  var random = (Math.random());
+  var multiply = random * 1000;
+  var round = Math.round(multiply);
+  var number = round;
+    for(var c = 0; c < 5; c ++)
 
+    var guess = window.prompt ("Guess what number i'm thinking off, 1 - 1000");
+    if(guess < number)
+  {
+    console.log("higher + c");
+  }
+    else if (guess > number)
+  {
+    console.log("lower + c");
+  }
+    else
+  {
+    console.log("correct the number was + number");
+  }
+}
