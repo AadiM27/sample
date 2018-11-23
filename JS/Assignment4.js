@@ -40,21 +40,25 @@ function GTN(){
   var round = Math.round(multiply);
   var number = round;
   var allowedGuesses = 1000
-
-    for(var c = 0; c < 5; c ++)
-      console.log(number)
-
-    var guess = window.prompt ("Guess what number i'm thinking of, 1 to 1000");
-    if(guess < number)
-  {
-    window.prompt("higher");
+  console.log(number);
+  
+  function integer(){
+    for(var c = 0; c < 5; c ++) {
+      var guess = prompt("Guess what number i'm thinking of, 1 to 1000");
+      parseInt(guess);
+      if (guess < number) {
+        alert("higher try again");
+        integer()
+      }
+      else if (guess > number) {
+        alert("lower try again");
+        integer()
+      }
+      else if (guess == number) {
+        alert("You guessed it right!");
+        break;
+      }
+    }
   }
-    else if (guess > number)
-  {
-    window.prompt("lower");
-  }
-    else (guess == number)
-  {
-    window.prompt("correct the number was" + number);
-  }
+  integer()
 }
