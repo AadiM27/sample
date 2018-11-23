@@ -47,7 +47,7 @@ function GTN(){
       var guess = prompt("Guess what number i'm thinking of, 1 to 1000");
       parseInt(guess);
       if (guess < number) {
-        alert("too high try again");
+        alert("too higher try again");
         integer()
       }
       else if (guess > number) {
