@@ -74,8 +74,7 @@ function Encryption(){
 
   for (var i = 0; i < plaintext.length; i ++){
   ciphertext += i+ABC;
-
-  }
+}
   
   console.log(ciphertext) 
 
