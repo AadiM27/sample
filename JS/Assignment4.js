@@ -44,9 +44,12 @@ function GTN(){
   
   function integer(){
     for(var c = 0; c < 5; c ++) {
-      var guess = prompt("Guess what number i'm thinking of, 1 to 1000");
+      var guess = prompt("Guess what number i'm thinking of, 1 to 1000, Q to quit");
       parseInt(guess);
-      if (guess < number) {
+      if (guess == "Q") {
+        break
+      }
+      else if (guess < number) {
         alert("too low try again");
         integer()
       }
@@ -63,7 +66,6 @@ function GTN(){
       }
     }
   }
-  integer()
 }
 
 function Encryption(){
