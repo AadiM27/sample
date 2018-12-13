@@ -65,3 +65,17 @@ function GTN(){
   }
   integer()
 }
+
+function Encryption(){
+  var plaintext = prompt ("Enter message to encrypt");
+  var ciphertext = ("");
+
+  for (var i = 0; i < plaintext.length (); i ++){
+  ciphertext += i+ABC;
+
+  }
+  
+  console.log(ciphertext) 
+
+
+}
