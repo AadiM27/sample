@@ -44,7 +44,7 @@ function GTN(){
   
   function integer(){
     for(var c = 0; c < 5; c ++) {
-      var guess = prompt("Guess what number i'm thinking of, 1 to 1000, Q to quit");
+      var guess = prompt("Guess what number i'm thinking of, 1 to 1000, q to quit");
       parseInt(guess);
       if (guess == "Q") {
         break
