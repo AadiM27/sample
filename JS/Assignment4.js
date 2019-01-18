@@ -39,7 +39,7 @@ function GTN(){
   var multiply = random * 1000;
   var round = Math.round(multiply);
   var number = round;
-  var allowedGuesses = 1000
+  var allowedGuesses = 1000;
   console.log(number);
   
   function integer(){
@@ -67,6 +67,8 @@ function GTN(){
     }
   }
 }
+  
+
 
 function Encryption(){
   var plaintext = prompt ("Enter message to encrypt");
